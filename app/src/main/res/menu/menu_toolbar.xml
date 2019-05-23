@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/action_sortby"
+            android:icon="@drawable/ic_menu_24dp"
+            android:title="@string/action_sort_by"
+            app:showAsAction="always">
+        <!-- movies submenu -->
+        <menu>
+            <group
+                    android:id="@+id/menu_sort_group"
+                    android:checkableBehavior="single">
+
+                <item
+                        android:id="@+id/popular_imenu"
+                        android:checked="true"
+                        android:title="@string/popular_imenu"/>
+
+                <item
+                        android:id="@+id/top_rated_imenu"
+                        android:title="@string/toprated_imenu"/>
+                <item
+                        android:id="@+id/upcoming_imenu"
+                        android:title="@string/upcoming_imenu"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/action_search"
+            app:showAsAction="always"/>
+
+</menu>

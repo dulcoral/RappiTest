@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rappi Test</string>
+    <string name="action_retry">Retry</string>
+    <string name="toprated_imenu">Top rated</string>
+    <string name="upcoming_imenu">UpComing</string>
+    <string name="popular_imenu">Popular</string>
+    <string name="movie_string">Movies</string>
+    <string name="action_sort_by">Sort by</string>
+    <string name="cast_string">The Cast</string>
+    <string name="trailers_string">Trailers</string>
+    <string name="user_reviews_string">User Reviews</string>
+    <string name="language_string">Language</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="overview_string">Overview</string>
+    <string name="release_date">Release date</string>
+    <string name="votes_string">%s votes</string>
+    <string name="action_share">Share movie</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="action_search">Search</string>
+
+</resources>
