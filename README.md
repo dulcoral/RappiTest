@@ -6,27 +6,35 @@
 Este proyecto utilizo MVVM para su desarrollo
 
 |─ app\
-  |──── data\ 
-  	|──── repository\
-  		|──── db
-  			Capa de control de percistencia
-  		|──── remoto
-  			Capa de comunicacion con el api
-  	|──── service
- 	 Capa de red para el acceso al api
-  
-  |──── models\
-  contiene todos los modelos necesarios para conectarse a la localdb y api
-    
-  |──── ui\
-  Capa de ui esta parte tiene todos los elementos necesarios para el control y diseño de la vista 
-  	|──── adapters
-  	|──── bindings
-  	|──── viewmodels 
 
-  |──── utils\ 
+ 	|──── data\
+
+  		|──── repository\
+
+  			|──── db
+  			Capa de control de percistencia
+
+  			|──── remoto
+  			Capa de comunicacion con el api
+
+  		|──── service
+ 	 	Capa de red para el acceso al api
   
-  Se muestral clases genericas de uso global o que ayudan a lo largo del proyecto y evitan repeticiones
+  	|──── models\
+  	contiene todos los modelos necesarios para conectarse a la localdb y api
+    
+  	|──── ui\
+  	Capa de ui esta parte tiene todos los elementos necesarios para el control y diseño de la vista 
+
+  		|──── adapters
+
+  		|──── bindings
+
+  		|──── viewmodels 
+
+  	|──── utils\ 
+  
+  	Se muestral clases genericas de uso global o que ayudan a lo largo del proyecto y evitan repeticiones
 
 
 
