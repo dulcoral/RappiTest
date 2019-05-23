@@ -8,18 +8,14 @@ Este proyecto utilizo MVVM para su desarrollo
 |─ app\
   |──── data\ 
   	|──── repository\
-
   		|──── db
   			Capa de control de percistencia
   		|──── remoto
   			Capa de comunicacion con el api
-
   	|──── service
  	 Capa de red para el acceso al api
   
-  
   |──── models\
-
   contiene todos los modelos necesarios para conectarse a la localdb y api
     
   |──── ui\
